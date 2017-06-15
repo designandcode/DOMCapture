@@ -28,3 +28,13 @@ into Chrome directly
  5. Save the already cropped screenshot where you want and name it what you want
  6. Create dozens of screenshots in the time it would take to do make one :sunglasses:
  7. Turn off the plugin by clicking the camera icon again. Now the webpage is back to normal
+
+### *Important*
+
+When clicking on action items like buttons and links, the plugin should stop the
+action from happening and allow you to screen shot the node directly.. However this
+is not guaranteed since the plugin has no control over the way those actions were
+coded by the webpage developers. ***For this reason I recommend you don't screenshot 
+action items directly, but rather screenshot the closest parent then crop later.***
+I just want to be sure you don't do something unexpected by clikcing on something 
+you didn't want :relaxed:
