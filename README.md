@@ -29,7 +29,7 @@ into Chrome directly
  6. Create dozens of screenshots in the time it would take to do make one :sunglasses:
  7. Turn off the plugin by clicking the camera icon again. Now the webpage is back to normal
 
-### *Important*
+### **Important* *
 
 When clicking on action items like buttons and links, the plugin should stop the
 action from happening and allow you to screen shot the node directly.. However this
