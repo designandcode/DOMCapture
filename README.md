@@ -17,7 +17,7 @@ So many steps...
 ### Use this instead
 
  1. Install the extension
-   a. Link provided here when it's in the Chrome Store
+   a. [Link to the extension][chrome-store-link] on Chrome Store
    b. Or clone this repo and upload it to your Chrome Browser directly
 https://www.cnet.com/how-to/how-to-install-chrome-extensions-manually/
 -- Don't bother with the CRX stuff. You can just load the _dist folder 
@@ -36,5 +36,8 @@ action from happening and allow you to screen shot the node directly.. However t
 is not guaranteed since the plugin has no control over the way those actions were
 coded by the webpage developers. ***For this reason I recommend you don't screenshot 
 action items directly, but rather screenshot the closest parent then crop later.***
-I just want to be sure you don't do something unexpected by clikcing on something 
+I just want to be sure you don't do something unexpected by clicking on something 
 you didn't want :relaxed:
+
+
+[chrome-store-link]: https://chrome.google.com/webstore/detail/domcapture/jpjadhglengbfihbldhdfddppmicaiio

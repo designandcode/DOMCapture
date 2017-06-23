@@ -49,15 +49,16 @@
 			case 'mouseenter':
 				e.target.style.outline = '2px solid #f00';
 				var target_location = e.target.getBoundingClientRect();
-				camera_icon.style.top = target_location.bottom - 10 + 'px';
+				camera_icon.style.top = target_location.bottom + document.body.scrollTop - 10 + 'px';
 				camera_icon.style.left = target_location.left + 'px';
+				console.log(target_location);
 				break;
 			case 'mouseleave':
 				e.target.style.outline = '1px dotted #f00'; 
 				e.target.parentNode.style.outline = '2px solid #f00';
 				var target_location = 
 					e.target.parentNode.getBoundingClientRect();
-				camera_icon.style.top = target_location.bottom - 10 + 'px';
+				camera_icon.style.top = target_location.bottom + document.body.scrollTop - 10 + 'px';
 				camera_icon.style.left = target_location.left + 'px';
 				break;
 		}

@@ -1,7 +1,7 @@
 {
   "name": "DOMCapture",
   "description": "This extension will screenshot DOM nodes",
-  "version": "0.0",
+  "version": "0.0.1",
   "permissions": [
     "activeTab"
   ],
